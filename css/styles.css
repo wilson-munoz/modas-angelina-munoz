@@ -1107,6 +1107,18 @@ footer .pie p {
     .talles-grandes div img {
         width: 100%;
     }
+
+
+    .talles-grandes div:hover img {
+        transform:scale(1.1);transform:scale(1.1);
+        transition: 2s;
+    }
+
+    .talles-grandes {
+        overflow:hidden;
+    }
+
+
     
     .talles-grandes div p {
         padding: 5px 0 5px 0;
