@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio || Modas Angelina</title> 
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet"> 
+            
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/styles.css">
+
+</head>
+<body>
+    <div class="container-grid">
+    <header>
+        <div>
+            <a href="#" id="menu-toggle" onclick='toggle_menu(); return false;'></a>
+            <a href="#" id="logo">Modas Angelina</a>
+       <nav>
+            
+            <ul>
+                <li><a href="../index.html">Home <span>></span> </a></li>
+                <li><a href="../vistas/talles-especiales.html">Talles Grandes <span>></span></a></li>
+                <li><a href="../vistas/lenceria.html">Lencería <span>></span></a></li>
+                <li><a href="../vistas/nosotros.html">Nosotros <span>></span></a></li>
+                <li><a href="../vistas/contacto.html">Contacto <span>></span></a></li>
+            </ul>
+            <form action="#">
+                <input type="search" name="search" placeholder="Buscar">
+                <button><i class="fas fa-search"></i></button>
+            </form>
+        </nav>
+        <a href="" class="carrito"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+    </header>
+    <main>
+        <div class="form-titulo">
+           <h1>Contacto</h1>
+        </div>
+       <section class="form-container">
+            <form action="#">
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre">
+                </div>
+                <div>
+                    <label for="apellido">Apellido</label>
+                    <input type="text" name="apellido" id="apellido">
+                </div>
+                <div>
+                    <label for="telefono">Telefono</label>
+                    <input type="tel" name="telefono" id="telefono">
+                </div>
+                <div>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div>
+                    <label for="">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.825058608306!2d-58.406744684770274!3d-34.60858498045824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaede79d96a1%3A0x20c0ea293f25b048!2sCastelli%20105%2C%20C1031%20AAC%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1642045595071!5m2!1ses!2sar" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+          <div>
+              <h2>Modas Angelina</h2>
+              <ul>
+               <li><a href="#">Quienes Somos</a></li>
+               <li><a href="#">Contactanos</a></li>
+              </ul>
+          </div>
+          <div>
+              <h2>Compras online</h2>
+              <ul>
+                  <li><a href="#">Terminos y condiciones</a></li>
+                  <li><a href="#">Politicas de privacidad</a></li>
+                  <li><a href="#">Politicas de envio</a></li>
+                  <li><a href="#">Cambios y devoluciones</a></li>
+                  <li><a href="#">Preguntas frecuentes</a></li>
+                  <li><a href="#">Arrepentimiento</a></li>
+               </ul>
+           </div>
+           <div>
+               <h2>Atención al Cliente</h2>
+               <ul>
+                   <li><a href=""><span>E-mail</span> : info@modasangelina.com</a></li>
+               </ul>
+           </div>
+           <div>
+               <h2>Seguinos</h2>
+               <ul class="redes">
+                   <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                   <li><a href="#"><i class="fab fa-instagram-square"></i></a></li>
+               </ul>
+           </div>
+
+       </div>
+       <div class="border"></div>
+
+       <div class="pie">
+           <p>Copyright ©2022 Modas Angelina || Todos los derechos reservados</p>
+       </div>
+    </footer>
+    </div>
+    
+    <script>
+        function toggle_menu() {
+            document.querySelector('body').classList.toggle('menu_abierto')
+        }
+    </script>
+    
+    <script>jssor_1_slider_init();
+//        Función del slider
+    </script>
+</body>
+</html>

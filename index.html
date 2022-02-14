@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio || Modas Angelina</title> 
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet"> 
+            
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/sliders.css">
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <script src="js/jssor.slider-28.1.0.min.js"></script>
+    <script src="js/sliders.js"></script>
+</head>
+<body>
+    <div class="container-grid">
+    <header>
+        <div>
+            <a href="#" id="menu-toggle" onclick='toggle_menu(); return false;'></a>
+            <a href="#" id="logo">Modas Angelina</a>
+       <nav>
+            
+            <ul>
+                <li><a href="index.html">Home <span>></span> </a></li>
+                <li><a href="vistas/talles-especiales.html">Talles Grandes <span>></span></a></li>
+                <li><a href="vistas/lenceria.html">Lencería <span>></span></a></li>
+                <li><a href="vistas/nosotros.html">Nosotros <span>></span></a></li>
+                <li><a href="vistas/contacto.html">Contacto <span>></span></a></li>
+            </ul>
+            <form action="#">
+                <input type="search" name="search" placeholder="Buscar">
+                <button><i class="fas fa-search"></i></button>
+            </form>
+        </nav>
+        <a href="" class="carrito"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+    </header>
+   
+    
+    <main>
+        <!--    sliders -->
+       <div class="sliders-container">
+            <div id="jssor_1">
+                <!-- Loading Screen -->
+                <div data-u="slides" class="slider-imgs">
+                    <div data-p="735">
+                        <img data-u="image" src="imgs/bannerBuzos.jpg" alt=""/>
+                    </div>
+                    <div data-p="735">
+                        <img data-u="image" src="imgs/bannerRemeras.gif" alt=""/>
+                    </div>
+                    <div>
+                        <img data-u="image" src="imgs/banner_10-mas-25off.gif" alt=""/>
+                    </div>
+    <!--
+                    <div data-p="735">
+                        <img data-u="image" src="imgs/px-clouds-conifers-fir-trees-158672-origin.jpg" alt=""/>
+                    </div>
+    -->
+                </div>
+
+                <!-- Bullet Navigator -->
+                <div data-u="navigator" class="jssorb071" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+                    <div data-u="prototype" class="i">
+                        <svg viewbox="0 0 16000 16000" class="viewbox">
+                            <circle class="b" cx="8000" cy="8000" r="6666.7"></circle>
+                        </svg>
+                        <div data-u="numbertemplate" class="n"></div>
+                    </div>
+                </div>
+
+                <!-- Arrow Navigator -->
+                <div data-u="arrowleft" class="jssora051" id="jssora051" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+                    <svg viewbox="0 0 16000 16000" class="arrow">
+                        <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
+                    </svg>
+                </div>
+                <div data-u="arrowright" class="jssora051" id="jssora051-2" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+                    <svg viewbox="0 0 16000 16000" class="arrow-2">
+                        <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
+                    </svg>
+                </div>
+            </div>
+        </div>
+      
+        <section class="home-bienvenida">
+            <h1>Bienvenido a Modas Angelina</h1>
+            <p>Toda la moda que buscás en un solo lugar.</p>
+        </section>
+        <section id="home-ofertas">
+            <h2>Ofertas de la semana</h2>
+            <div class="home-ofertas">
+                <div>
+                    <a href="#">
+                        <img src="imgs/calza-con-recortes-diagonales-tricolor.webp" alt="Calza con recorte triangular tricolor.">
+                        <p><span>$699</span></p>
+                        <p>Hasta 6 cuotas sin interés</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="imgs/remera-abertura-en-mangas.webp" alt="Remera con abertura en las mangas.">
+                        <p><span>$799</span></p>
+                        <p>Hasta 6 cuotas sin interés</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="imgs/remera-con-volados-en-tajos-laterales.webp" alt="Remera con volados en tajos laterales color negra.">
+                        <p><span>$899</span></p>
+                        <p>Hasta 6 cuotas sin interés</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="imgs/musculosa-con-volado-grande-en-delantero.webp" alt="Musculosa con volado grande en delantero color gris.">
+                        <p><span>$799</span></p>
+                        <p>Hasta 6 cuotas sin interés</p>
+                    </a>
+                </div>
+<!--
+                <div>
+                    <a href="#">
+                        <img src="imgs/musculosa-con-recorte-canesu-en-red.webp" alt="Musculosa con recorte canesu en red.">
+                        <p><span>$599</span></p>
+                        <p>Hasta 6 cuotas sin interés</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="imgs/vestido-con-volado-amplio-en-scote.webp" alt="Vestido con volado amplio en scote.">
+                        <p><span>$799</span></p>
+                        <p>Hasta 6 cuotas sin interés</p>
+                    </a>
+                </div>
+-->
+            </div>
+        </section>
+        <section id="home-categoria">
+            <h2>Comprá por categorías</h2>
+            <div class="home-categoria">
+                <div>
+                    <a href="#">
+                        <img src="imgs/3_remeras.gif" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="imgs/2_musulosas.webp" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="imgs/7_pantalones.webp" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="imgs/8_Vestidos.webp" alt="">
+                    </a>
+                </div>
+<!--
+                <div>
+                    <a href="#">
+                        <img src="imgs/4_enteritos.webp" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="imgs/6_blazers.webp" alt="">
+                    </a>
+                </div>
+-->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+          <div>
+              <h2>Modas Angelina</h2>
+              <ul>
+               <li><a href="#">Quienes Somos</a></li>
+               <li><a href="#">Contactanos</a></li>
+              </ul>
+          </div>
+          <div>
+              <h2>Compras online</h2>
+              <ul>
+                  <li><a href="#">Terminos y condiciones</a></li>
+                  <li><a href="#">Politicas de privacidad</a></li>
+                  <li><a href="#">Politicas de envio</a></li>
+                  <li><a href="#">Cambios y devoluciones</a></li>
+                  <li><a href="#">Preguntas frecuentes</a></li>
+                  <li><a href="#">Arrepentimiento</a></li>
+               </ul>
+           </div>
+           <div>
+               <h2>Atención al Cliente</h2>
+               <ul>
+                   <li><a href=""><span>E-mail</span> : info@modasangelina.com</a></li>
+               </ul>
+           </div>
+           <div>
+               <h2>Seguinos</h2>
+               <ul class="redes">
+                   <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                   <li><a href="#"><i class="fab fa-instagram-square"></i></a></li>
+               </ul>
+           </div>
+
+       </div>
+       <div class="border"></div>
+
+       <div class="pie">
+           <p>Copyright ©2022 Modas Angelina || Todos los derechos reservados</p>
+       </div>
+    </footer>
+    </div>
+    
+    <script>
+        function toggle_menu() {
+            document.querySelector('body').classList.toggle('menu_abierto')
+        }
+    </script>
+    
+    <script>jssor_1_slider_init();
+//        Función del slider
+    </script>
+</body>
+</html>
